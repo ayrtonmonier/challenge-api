@@ -16,7 +16,7 @@ Nota: As versões utilizadas para este teste foram escolhidas para se aproximar 
 
 ## Configuração do Banco de Dados
 
-O projeto utiliza um banco de dados relacional para armazenar as informações das pessoas. Certifique-se de ter um banco de dados configurado e atualize as informações de conexão no arquivo.  `application.properties`. Por padrão o banco de dados em memória H2 está sendo utilizado para testes e possuem as devidas configurações jpa setadas neste arquivo de propriedades.
+O projeto utiliza um banco de dados relacional para armazenar as informações das pessoas. Certifique-se de ter um banco de dados configurado e atualize as informações de conexão no arquivo.  `application.properties`. Por padrão o banco de dados em memória H2 está sendo utilizado para testes e possuem as devidas configurações já setadas neste arquivo de propriedades.
 
 ## Executando a Aplicação
 
