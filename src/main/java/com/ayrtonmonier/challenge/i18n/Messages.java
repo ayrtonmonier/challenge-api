@@ -9,11 +9,11 @@ public class Messages {
 
     static {
         // Define o idioma padrão como Português
-        // Locale defaultLocale = new Locale("pt");
+        Locale defaultLocale = new Locale("pt");
         // Obtém o idioma do sistema
-        Locale systemLocale = Locale.getDefault();
+        //Locale systemLocale = Locale.getDefault();
         // Carrega o arquivo de recursos correspondente ao idioma do sistema
-        RESOURCE_BUNDLE = ResourceBundle.getBundle(BUNDLE_NAME, systemLocale);
+        RESOURCE_BUNDLE = ResourceBundle.getBundle(BUNDLE_NAME, defaultLocale);
     }
 
     public static String getString(String key) {

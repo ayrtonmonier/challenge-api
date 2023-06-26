@@ -8,13 +8,15 @@ https://github.com/juntossomosmais/code-challenge
 
 Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de desenvolvimento:
 
-- JDK 8 ou superior
-- Spring Boot
-- Maven
+- JDK 11 ou superior
+- Spring Boot 2.7.13
+- Maven 3.9.2
+
+Nota: As versões utilizadas para este teste foram escolhidas para se aproximar ao ambiente do cliente.
 
 ## Configuração do Banco de Dados
 
-O projeto utiliza um banco de dados relacional para armazenar as informações das pessoas. Certifique-se de ter um banco de dados configurado e atualize as informações de conexão no arquivo `application.properties`.
+O projeto utiliza um banco de dados relacional para armazenar as informações das pessoas. Certifique-se de ter um banco de dados configurado e atualize as informações de conexão no arquivo.  `application.properties`. Por padrão o banco de dados em memória H2 está sendo utilizado para testes e possuem as devidas configurações jpa setadas neste arquivo de propriedades.
 
 ## Executando a Aplicação
 
@@ -55,7 +57,7 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para enviar pu
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](LICENSE.txt).
 
 
 

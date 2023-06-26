@@ -1,8 +1,8 @@
 package com.ayrtonmonier.challenge.entities;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Embeddable;
-import jakarta.persistence.Embedded;
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+import javax.persistence.Embedded;
 
 @Embeddable
 public class Location {
